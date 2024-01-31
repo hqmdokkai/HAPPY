@@ -1,0 +1,28 @@
+h1 {
+  text-align: center; /* Căn giữa theo chiều ngang */
+  line-height: 100px; /* Căn giữa theo chiều dọc, chọn một giá trị phù hợp với chiều cao mong muốn */
+  margin: 0; /* Đặt khoảng trống dưới và trên về 0 */
+}
+h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-family: "Lemon", serif;
+  font-family: "Sixtyfour", sans-serif;
+}
+.container {
+  text-align: center;
+}
+.button {
+  width: 200px; /* Thiết lập chiều rộng mong muốn */
+  height: 50px; /* Thiết lập chiều cao mong muốn */
+  font-size: 16px; /* Thiết lập kích thước chữ */
+}
+img {
+  max-width: 100%; /* Ảnh không vượt quá kích thước của phần tử cha */
+  max-height: 100%; /* Ảnh không vượt quá kích thước của phần tử cha */
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: fit-content; /* Sử dụng fit-content thay vì max-content */
+    font-size: 10px;
+  }
+}
